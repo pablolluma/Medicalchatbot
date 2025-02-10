@@ -8,6 +8,11 @@ conda create -n mchatbot python=3.8 -y | python -m venv env
 conda activate mchatbot | .\env\Scripts\activate.bat
 STEP 02- install the requirements
 pip install -r requirements.txt
+After Creating Files use the following commands
+git add .
+git commit -m " folder structure added"
+git push origin main
+
 Create a .env file in the root directory and add your Pinecone credentials as follows:
 PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 PINECONE_API_ENV = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
