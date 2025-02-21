@@ -1,12 +1,11 @@
 # Medicalchatbot
 STEPS:
 Clone the repository
-
 Project repo: https://github.com/
 STEP 01- Create a conda environment after opening the repository
-conda create -n mchatbot python=3.8 -y | python -m venv env
-conda activate mchatbot | .\env\Scripts\activate.bat
-STEP 02- install the requirements
+conda create -n medicalchatbot python=3.8 -y | python -m venv env
+conda activate medicalchatbot | .\env\Scripts\activate.bat
+STEP 02- Install the requirements
 pip install -r requirements.txt
 After Creating Files use the following commands
 git add .
